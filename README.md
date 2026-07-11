@@ -9,7 +9,7 @@ UCAB is a full-stack MERN-based Online Cab Booking System that enables users to 
 
 Demo Video:
 
-[https://1drv.ms/v/c/ecbafdaaba94ab0b/IQAOfDFh_pqmT422vJ2jwGkhAWpasJoIl0hRuS3Frj1eFr4?e=gBI6nH](url)
+https://1drv.ms/v/c/ecbafdaaba94ab0b/IQAOfDFh_pqmT422vJ2jwGkhAWpasJoIl0hRuS3Frj1eFr4?e=gBI6nH
 
 ✨ Features
 👤 User Module
@@ -125,5 +125,5 @@ Project: UCAB – Online Cab Booking System
 Project Duration: 25 June 2026 – 11 July 2026
 
 GitHub Repository:
-[https://github.com/mahithapoluru-2006/ucab](url)
+https://github.com/mahithapoluru-2006/ucab
 
