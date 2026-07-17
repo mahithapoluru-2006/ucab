@@ -1,96 +1,145 @@
 # ucabcd frontend
 
-🚖 UCAB – Online Cab Booking System
-📖 Overview
+# 🚖 UCAB – Online Cab Booking System
 
-UCAB is a full-stack MERN-based Online Cab Booking System that enables users to book cabs, drivers to manage ride requests, and administrators to monitor the complete platform. The application provides secure authentication, real-time ride updates, live driver location tracking, online payment, and booking history through an intuitive web interface.
+> **🎥 Demo Video:**  
+> **▶ Watch Here:** https://1drv.ms/v/c/ecbafdaaba94ab0b/IQAOfDFh_pqmT422vJ2jwGkhAWpasJoIl0hRuS3Frj1eFr4?e=gBI6nH
 
-🎥 Demo Video
+> **💻 GitHub Repository:**  
+> **🔗 Repository:** https://github.com/mahithapoluru-2006/ucab
 
-Demo Video:
 
-https://1drv.ms/v/c/ecbafdaaba94ab0b/IQAOfDFh_pqmT422vJ2jwGkhAWpasJoIl0hRuS3Frj1eFr4?e=gBI6nH
+## 📖 Overview
 
-✨ Features
-👤 User Module
-User Registration & Login
-Book a Cab
-View Booking History
-Online Payment
-Track Ride Status
-🚖 Driver Module
-Driver Registration & Login
-Accept Ride Requests
-Complete Rides
-Share Live Location
-Driver Dashboard
-👨‍💼 Admin Module
-Admin Login
-Manage Users
-Manage Drivers
-Manage Bookings
-Dashboard Overview
-🌍 Additional Features
-Google Maps Integration
-Live Driver Location Tracking
-Real-Time Ride Updates using Socket.IO
-JWT Authentication
-MongoDB Atlas Database
-🛠 Tech Stack
-Frontend
-React.js
-HTML5
-CSS3
-JavaScript
-Backend
-Node.js
-Express.js
-Database
-MongoDB Atlas
-Authentication
-JSON Web Token (JWT)
-APIs & Libraries
-Socket.IO
-Google Maps API
-Razorpay Payment Gateway
-Axios
-Mongoose
-Development Tools
-Git
-GitHub
-GitHub Codespaces
-Visual Studio Code
-Postman
-⚙️ Installation
-1. Clone the Repository
+UCAB is a full-stack MERN-based Online Cab Booking System that enables users to book cabs, drivers to manage ride requests, and administrators to monitor the complete platform. The application provides secure authentication, cab booking, driver management, online payment, booking history, and real-time ride updates through an interactive web interface.
+
+
+
+## ✨ Features
+
+### 👤 User Module
+
+- User Registration
+- User Login (JWT Authentication)
+- Book a Cab
+- View Booking History
+- Online Payment
+- Track Ride Status
+
+### 🚖 Driver Module
+
+- Driver Registration
+- Driver Login
+- Accept Ride Requests
+- Complete Rides
+- Driver Dashboard
+- Share Live Location
+
+### 👨‍💼 Admin Module
+
+- Admin Login
+- Manage Users
+- Manage Drivers
+- Manage Bookings
+- Dashboard Overview
+
+### 🌍 Additional Features
+
+- Google Maps Integration
+- Live Driver Location Tracking
+- Real-Time Ride Updates using Socket.IO
+- JWT Authentication
+- MongoDB Atlas Database
+- Responsive Bootstrap User Interface
+
+
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- Axios
+
+### Backend
+
+- Node.js
+- Express.js
+- Socket.IO
+- JWT Authentication
+- bcryptjs
+
+### Database
+
+- MongoDB Atlas
+
+### APIs & Libraries
+
+- Google Maps API
+- Razorpay Payment Gateway
+- Mongoose
+
+### Development Tools
+
+- Git
+- GitHub
+- GitHub Codespaces
+- Visual Studio Code
+- Postman
+
+
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
 git clone https://github.com/mahithapoluru-2006/ucab.git
-2. Navigate to the Project
+```
+
+### Navigate to Project
+
+```bash
 cd ucab
-3. Install Backend Dependencies
+```
+
+### Backend
+
+```bash
 cd backend
 npm install
-4. Install Frontend Dependencies
-cd ../frontend
-npm install
-5. Configure Environment Variables
-
-Create .env files inside both backend and frontend folders and add the required environment variables.
-
-6. Start Backend
-cd backend
 npm start
-7. Start Frontend
+```
+
+### Frontend
+
+```bash
 cd frontend
-npm start
+npm install
+npm run dev
+```
 
-Frontend:
+### Environment Variables
 
-http://localhost:3000
+Create a `.env` file inside the **backend** folder.
 
-Backend:
+Example:
 
-http://localhost:5000
-📁 Folder Structure
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+
+
+## 📂 Folder Structure
+
+```text
 UCAB
 │
 ├── backend
@@ -110,20 +159,92 @@ UCAB
 │   │   ├── components
 │   │   ├── pages
 │   │   ├── services
-│   │   └── App.js
+│   │   └── App.jsx
 │   ├── package.json
 │   └── .env
 │
 ├── README.md
 └── .gitignore
-👩‍💻 Author
 
-POLURU MAHITHA CHOUDARY
 
-Project: UCAB – Online Cab Booking System
 
-Project Duration: 25 June 2026 – 11 July 2026
 
-GitHub Repository:
-https://github.com/mahithapoluru-2006/ucab
+## 🔒 Authentication
 
+- JSON Web Token (JWT)
+- bcryptjs Password Hashing
+- Protected Routes
+- Role-Based Access (User, Driver, Admin)
+
+
+
+## 🧪 Testing
+
+The following modules have been tested successfully:
+
+- ✅ User Registration
+- ✅ User Login
+- ✅ Driver Registration
+- ✅ Driver Login
+- ✅ Cab Booking
+- ✅ Booking History
+- ✅ Ride Acceptance
+- ✅ Ride Completion
+- ✅ Online Payment
+- ✅ Admin Dashboard
+- ✅ CRUD Operations
+
+### Testing Tools
+
+- Postman
+- MongoDB Compass
+- Browser Developer Tools
+
+
+
+## 🚀 Future Enhancements
+
+- Ride Cancellation
+- Ratings & Reviews
+- Email Notifications
+- OTP Verification
+- Push Notifications
+- Driver Assignment Optimization
+- Admin Analytics Dashboard
+- Mobile Application
+- Live Payment Gateway Integration
+
+
+
+## 📸 Screenshots
+
+- Home Page
+- User Registration
+- User Login
+- Driver Registration
+- Driver Login
+- Book Cab
+- Booking History
+- Driver Dashboard
+- Payment Page
+- Google Maps
+- Admin Dashboard
+
+
+## 👩‍💻 Author
+
+**POLURU MAHITHA CHOUDARY**
+
+**Bachelor of Technology (B.Tech)**
+
+**3rd Year**
+
+**Computer Science and Engineering (CSE)**
+
+**Project:** UCAB – Online Cab Booking System
+
+**Project Duration**: 25 June 2026 – 11 July 2026
+
+## 📄 License
+
+This project was developed for academic and internship purposes.
